@@ -1,0 +1,33 @@
+# Environment files
+.env
+
+# Storage / uploads
+storage/logs/*
+storage/cache/*
+storage/uploads/*
+!storage/logs/.gitkeep
+!storage/cache/.gitkeep
+!storage/uploads/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Dependency directories
+vendor/
+node_modules/
+
+# Compiled files
+*.log
+*.sql.bak
+
+# Temporary files
+*.tmp
+*.bak
